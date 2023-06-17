@@ -60,8 +60,8 @@ export default function ModalCard() {
 
                             <div className={`${titillium.className} flex w-full`}>
                                 <div onClick={() => setIsModalOpen(false)}
-                                    className='h-10 mt-3rounded-[10px] bg-[#FAA500] w-full text-[#FFFFFF] p-4 text-[14px] font-bold
-                                    flex justify-center items-center cursor-pointer'>
+                                    className='h-10 mt-3 rounded-[10px] bg-[#FAA500] w-full text-[#FFFFFF] p-4 text-[14px] font-bold flex 
+                                    justify-center items-center cursor-pointer'>
                                     <p>ENVIAR</p>
                                     <img
                                         src={'plane_icon.png'}
